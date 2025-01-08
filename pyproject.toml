@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "search-agent"
+version = "0.1.0"
+description = ""
+authors = ["Xphi310302 <ngxuanphi010402@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "agent" }
+]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.2.61"
+langchain-core = "^0.3.29"
+langchain-google-genai = "^2.0.8"
+langchain-anthropic = "^0.3.1"
+langchain-openai = "^0.2.14"
+openai = "*"
+anthropic = "*"
+beautifulsoup4 = "*"
+httpx = "*"
+aiohttp = "*"
+loguru = "*"
+requests = "*"
+jupyterlab = "^4.3.4"
+ipykernel = "^6.29.5"
+jupyter = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
