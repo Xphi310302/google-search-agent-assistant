@@ -1,8 +1,7 @@
 
 from bs4 import BeautifulSoup
-from typing import Dict, List, Union
-from loguru import logger
-import asyncio
+from typing import List, Union
+
 import aiohttp
 import requests
 from langchain_core.tools import tool
@@ -52,7 +51,7 @@ async def async_get_search_results(
     """
     url = "https://customsearch.googleapis.com/customsearch/v1"
     api_key = os.getenv("GOOGLE_SEARCH_API_KEY")
-    search_engine_id = os.getenv("SEARCH_ENGINE_ID")
+    search_engine_id = os.getenv("GOOGLE_SEARCH_ENGINE_ID")
     params = {
         "q": input,
         "key": api_key,
