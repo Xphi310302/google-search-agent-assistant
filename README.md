@@ -2,6 +2,12 @@
 
 An intelligent search assistant powered by LangChain and Streamlit that helps you find and summarize information from the web in real-time.
 
+## 📸 Demo
+
+Here's what the app looks like in action:
+
+![App Screenshot](./assets/agent.jpg)
+
 ## 🌟 Features
 
 - **Real-time Web Search**: Utilizes Google Search to find the most relevant information
@@ -92,10 +98,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 Phi Nguyen Xuan
 - LinkedIn: [Phinx](https://www.linkedin.com/in/phinx/)
 - Website: https://phinx.vercel.app
-
-## ⭐️ Show your support
-
-Give a ⭐️ if this project helped you!
 
 ---
 Built with ❤️ using LangChain and Streamlit
