@@ -49,8 +49,8 @@ Here's what the app looks like in action:
    ```bash
    # Create a .env file with your API keys
    OPENAI_API_KEY=your_openai_api_key
-   GOOGLE_API_KEY=your_google_api_key
-   GOOGLE_CSE_ID=your_google_cse_id
+   GOOGLE_SEARCH_API_KEY=your_google_search_api_key
+   GOOGLE_SEARCH_ENGINE_ID=your_google_search_engine_id
    ```
 
 5. **Run the application**
