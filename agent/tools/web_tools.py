@@ -99,7 +99,7 @@ def parse(html):
 
 
 async def fetch_and_parse(session, url):
-    logger.info(f"Fetch url: {url}")
+    # logger.info(f"Fetch url: {url}")
     try:
         html = await fetch(session, url)
         paras = parse(html)
