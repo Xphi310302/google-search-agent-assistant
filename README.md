@@ -24,16 +24,22 @@ An intelligent search assistant powered by LangChain and Streamlit that helps yo
 
 1. **Clone the repository**
    ```bash
-   git clone [your-repo-url]
+   git clone https://github.com/Xphi310302/google-search-agent-assistant.git
    cd search-agent
    ```
 
-2. **Install dependencies**
+2. **Install Poetry (if not already installed)**
    ```bash
-   pip install -r requirements.txt
+   pip install poetry
    ```
 
-3. **Set up environment variables**
+3. **Install dependencies using Poetry**
+   ```bash
+   poetry install
+   source $(poetry env info --path)/bin/activate  # Activate the virtual environment
+   ```
+
+4. **Set up environment variables**
    ```bash
    # Create a .env file with your API keys
    OPENAI_API_KEY=your_openai_api_key
@@ -41,7 +47,7 @@ An intelligent search assistant powered by LangChain and Streamlit that helps yo
    GOOGLE_CSE_ID=your_google_cse_id
    ```
 
-4. **Run the application**
+5. **Run the application**
    ```bash
    streamlit run main.py
    ```

@@ -1,9 +1,10 @@
 .env
 *.pyc  
 __pycache__/
-
+.vscode
 # Directories
 build/
 dist/
 htmlcov/
 venv/
+.ipynb
