@@ -88,6 +88,9 @@ search-agent/
 ├── utils/           # Utility functions
 └── README.md        # Project documentation
 ```
+## 📝 Todo List
+
+- [ ] Do some experiments with some other crawler tools for more reliable results
 
 ## 📄 License
 
@@ -100,4 +103,6 @@ Phi Nguyen Xuan
 - Website: https://phinx.vercel.app
 
 ---
+
+
 Built with ❤️ using LangChain and Streamlit
